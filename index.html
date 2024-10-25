@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SegurMap</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@3.2.12/dist/leaflet-routing-machine.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+    <style>
+       
+    </style>
+</head>
+<body>
+    <header>
+        <h1><i class="fas fa-shield-alt"></i><i class="fas fa-map-marker-alt"></i> SeguriMap</h1>
+    </header>
+    
+    <div class="container">
+        <div id="map"></div>
+        
+        <div id="controls">
+            <h2>Control de Patrullas</h2>
+            <select id="seleccionPatrulla">
+                <option value="">Seleccionar Patrulla</option>
+                <option value="patrulla1">Patrulla 1</option>
+                <option value="patrulla2">Patrulla 2</option>
+                <option value="patrulla3">Patrulla 3</option>
+            </select>
+            <button id="iniciarPatrullaje">Iniciar Patrullaje</button>
+            <button id="finalizarPatrullaje">Finalizar Patrullaje</button>
+            <button id="actualizarMapa">Actualizar Mapa</button>
+            
+            <h2>Horarios de Monitoreo</h2>
+            <div id="horarios"></div>
+            
+            <h2>Zonas de Vigilancia</h2>
+            <select id="capasGIS">
+                <option value="todas">Todas las zonas</option>
+                <option value="riesgoAlto">Zonas de Alto Riesgo</option>
+                <option value="riesgoMedio">Zonas de Riesgo Medio</option>
+                <option value="riesgoBajo">Zonas de Bajo Riesgo</option>
+                <option value="ninguna">No mostrar zonas</option>
+            </select>
+            
+          
+            <h2>Control de Operaciones</h2>
+            <button id="generarRuta">Generar ruta</button>
+            <button id="posicionarPatrullas">Posicionar Patrulla</button>
+        </div>
+
+        <div id="infoPanel">
+            <h2>Registro de Incidencias</h2>
+            <ul id="listaIncidencias"></ul>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet-routing-machine@3.2.12/dist/leaflet-routing-machine.js"></script>
+    <script src="index.js">
+       
+    </script>
+</body>
+</html>
