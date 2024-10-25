@@ -1,58 +1,25 @@
-# Proyecto React
+# SeguriMap
 
-Este proyecto es una aplicación creada con React. A continuación, se detallan los pasos necesarios para ejecutar el proyecto en tu entorno local.
+Este es un proyecto simple de una página web creada con HTML, CSS y JavaScript. El objetivo de este proyecto es mostrar la funcionalidad inicial que tiene SeguriMap 
+## Descripción
+
+Este proyecto es una página web que muestra una la primera version de Segurimap. Se ha utilizado HTML para la estructura, CSS para el diseño y JavaScript para agregar interactividad.
+
+## Tecnologías utilizadas
+
+- HTML5
+- CSS3
+- JavaScript
+
 ## Requisitos previos
-Asegúrate de tener instalado lo siguiente en tu máquina:
-- [Node.js](https://nodejs.org/) (versión 14 o superior)
-- [npm](https://www.npmjs.com/) o [yarn](https://yarnpkg.com/) para gestionar las dependencias
 
-## Instrucciones para ejecutar el proyecto
+Para ejecutar este proyecto no necesitas instalar nada adicional. Solo necesitas un navegador web moderno que soporte HTML5, CSS3 y JavaScript.
 
-1. **Clonar el repositorio**
+## Cómo ejecutar el proyecto
 
-   Clona este repositorio en tu máquina local utilizando el siguiente comando:
+Sigue estos pasos para ver el proyecto funcionando en tu máquina local:
+
+1. **Clona el repositorio** o descarga los archivos en tu computadora.
 
    ```bash
-   git clone https://github.com/usuario/nombre-del-repositorio.git
-
-Cambia usuario y nombre-del-repositorio por los valores correspondientes.
-
-2.**Instalar Dependencias**
-
-Navega al directorio del proyecto e instala las dependencias ejecutando el siguiente comando:
-
-    cd nombre-del-repositorio
-    
-    npm install
-
-3. **Ejecutar el servidor de desarrollo**
-
-Una vez instaladas las dependencias, puedes iniciar el servidor de desarrollo con el siguiente comando:
-        
-    npm start
-        
- El proyecto estará disponible en tu navegador en la dirección http://localhost:3000/.
-
-4. **Construir la aplicación para producción**
-
-Para compilar el proyecto para producción, utiliza el siguiente comando:
-
-    npm run build
-
-Esto generará una carpeta build con los archivos optimizados listos para ser desplegados.
-
-## Estructura del Proyecto
-
-Explicación breve de la estructura del proyecto:
-- src/: Código fuente de la aplicación
-- public/: Archivos públicos, como index.html
-- package.json: Archivo de configuración con las dependencias y scripts
-
-## Nota
-
- Este proyecto está configurado para funcionar exclusivamente en un entorno local y no está preparado para un despliegue en producción.
-
-
-
-
-     
+   git clone https://github.com/tuusuario/proyecto-ejemplo.git
